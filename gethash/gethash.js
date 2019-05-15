@@ -47,3 +47,10 @@ ipfs.add(bufDataToHash, {'cid-version': 1,'cid-base': 'base32',onlyHash: true}).
 
 
 
+function timeout() {
+    setTimeout(function () {
+        console.log("waiting");
+        timeout();
+    }, 1000);
+}
+timeout();
