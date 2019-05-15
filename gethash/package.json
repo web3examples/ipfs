@@ -3,9 +3,9 @@
     "version": "1.0.0",
     "author": "Gerard Persoon (mail@gpersoon.com)",
     "description": "Show how IPFS hashes are created",
-    "license": "MIT",  
+    "license": "MIT",
     "scripts": {
-        "start": "node ./gethash.js"
+        "start": "node ./src/index.js"
     },
     "dependencies": {
         "ipfs-unixfs": ">=0.1.16",
