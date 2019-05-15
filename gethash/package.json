@@ -1,0 +1,22 @@
+{
+    "name": "gethash",
+    "version": "1.0.0",
+    "author": "Gerard Persoon (mail@gpersoon.com)",
+    "description": "Show how IPFS hashes are created",
+    "license": "MIT",  
+    "scripts": {
+        "start": "node ./gethash.js"
+    },
+    "dependencies": {
+        "ipfs-unixfs": ">=0.1.16",
+        "ipld-dag-pb": ">=0.17.0",
+        "multihashing": ">=0.3.3",
+        "multihashes": ">=0.4.14",
+        "base32-encode": ">=1.1.1",
+        "ipfs-http-client": ">=31.0.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/web3examples/web3examples.github.io"
+    }
+}
