@@ -5,7 +5,7 @@
     "description": "Show how IPFS hashes are created",
     "license": "MIT",
     "scripts": {
-        "start": "node ./gethash.js"
+        "start": "node ./index.js"
     },
     "dependencies": {
         "ipfs-unixfs": ">=0.1.16",
