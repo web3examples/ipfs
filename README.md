@@ -2,8 +2,7 @@
 # ipfs
 Examples related to ipfs
 
-![](\architecture\ipfs.svg)
-
+![](architecture/ipfs.svg)
 Architecture
  
 
