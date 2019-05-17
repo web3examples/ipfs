@@ -2,7 +2,7 @@
 # ipfs
 Examples related to ipfs
 
-
+![](method-draw-image.svg)
 
 Architecture
 
