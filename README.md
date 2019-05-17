@@ -1,6 +1,6 @@
 # ipfs
 Examples related to ipfs
 
-Examples:
-[gethash]
+Examples:<br/>
+[gethash](https://github.com/web3examples/ipfs/tree/master/gethash)
 
