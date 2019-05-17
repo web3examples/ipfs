@@ -46,12 +46,3 @@ ipfs.add(bufDataToHash, {'cid-version': 1,onlyHash: true}).then( (r) =>{console.
 ipfs.add(bufDataToHash, {'cid-version': 1,'cid-base': 'base32',onlyHash: true}).then( (r) =>{console.log("Cidv1 "+sDataToHash+" via ipfs.add          (B32)=>"+r[0].hash);});  //zb2rhaMwCEJiQ7FbitJJhtQMybzLetLwWJeHSSWzj5vJgguR3
 
 
-var http = require("http");
-
-//create a server object:
-http.createServer(function(req, res) {
-    res.write("Hello World!"); //write a response to the client
-    res.end(); //end the response
-  })
-  .listen(8080); //the server object listens on port 8080
-
