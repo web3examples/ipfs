@@ -2,11 +2,15 @@
 # ipfs
 Examples related to ipfs
 
-![](method-draw-image.svg?sanitize=true)
+![](method-draw-image.svg)
 
 Architecture
  
-
+{::nomarkdown}
+<svg width="400" height=300>
+    <circle cx="150" cy="100" r="10" fill="blue"/>
+</svg>
+{:/}
 
 
 
