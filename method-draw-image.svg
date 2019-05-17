@@ -10,6 +10,12 @@
  <g>
   <title>Layer 1</title>
   <rect id="svg_1" height="119" width="213" y="113.8375" x="163.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
-  <ellipse ry="55" rx="133" id="svg_2" cy="104.8375" cx="316.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+  
+    <a href="index.js">
+    
+  
+      <ellipse ry="55" rx="133" id="svg_2" cy="104.8375" cx="316.5" stroke-width="1.5" stroke="#000" fill="#fff"/>
+     </a>
+     
  </g>
 </svg>
