@@ -1,15 +1,14 @@
 ![logo][]
-# ipfs
+# IPFS
 Examples related to ipfs
 
 ![](architecture/ipfs.svg)
-Architecture
- 
+
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| Architecture    |                             | [ipfs.io]       | [IPFS Alpha Demo]    | [Install IPFS] | [Tutorial]          |
-| Hashing         |                             |                 |                    |            | [gethash](gethash) |
+| Architecture    |                             | [ipfs.io]       | [IPFS Alpha Demo]    | [Install IPFS] | |
+| Hashing & links         |                             |                 |                    |            | [Tutorial]<br>[gethash](gethash) |
 | IPFS Node       | [go-ipfs][]<br>[js-ipfs][]  |
 | IPFS explorer   | [webui][]<br> [ipld explore][]
 | IPFS Pinning    | [Pinata](https://pinata.cloud) | [How to](https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885) 
