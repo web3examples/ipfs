@@ -12,7 +12,7 @@ Examples related to ipfs
 | General info    |                             | [ipfs.io]<br>[reddit]|                | [github-ipfs] |    |
 | Architecture    |                             | 
 | IPFS Content Identifiers | [cids][]           |                 |                    |            |[gethash](gethash) |
-| Dns link        |                             | [dnslink][]      |
+| Dns link        |                             | [dnslink][]<br>[dnslink.io]      |
 | IPFS Node       | [go-ipfs][]<br>[js-ipfs][]<br>[orion][]   |
 | IPFS Explorer   | [webui][]<br> [ipld explore][]
 | IPFS Gateway    | [gateway-check][] |
@@ -35,7 +35,7 @@ Examples related to ipfs
 [userfriendly]:    https://hackernoon.com/ten-terrible-attempts-to-make-the-inter-planetary-file-system-human-friendly-e4e95df0c6fa
 [cids]:            https://docs.ipfs.io/guides/concepts/cid/
 [dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
-
+[dnslink.io]:      http://dnslink.io/
 
 | IPFS Applications | Tutorials |  Examples |                 
 | --------------- |  ---------   | ------|
