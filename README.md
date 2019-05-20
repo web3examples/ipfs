@@ -9,12 +9,14 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                             | [ipfs.io]<br>[reddit]|  
+| General info    |                             | [ipfs.io]<br>[reddit]|                | [github-ipfs] |    |
 | Architecture    |                             | 
-| IPFS Hashing    |                             |                 |                    |            |[gethash](gethash) |
+| IPFS Content Identifiers | [cids][]           |                 |                    |            |[gethash](gethash) |
+| Dns link        |                             | [dnslink][]      |
 | IPFS Node       | [go-ipfs][]<br>[js-ipfs][]<br>[orion][]   |
 | IPFS Explorer   | [webui][]<br> [ipld explore][]
-| IPFS Gateway | [gateway-check][] |
+| IPFS Gateway    | [gateway-check][] |
+| IPFS Connect to Web2 |                        | [userfriendly][]
 | IPFS Pinning    | [Pinata](https://pinata.cloud) | [How to](https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885) 
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
@@ -29,13 +31,19 @@ Examples related to ipfs
 [webui]:           https://webui.ipfs.io
 [ipld explore]:    https://explore.ipld.io/
 [gateway-check]:   https://ipfs.github.io/public-gateway-checker
-
+[github-ipfs]:     https://github.com/ipfs
+[userfriendly]:    https://hackernoon.com/ten-terrible-attempts-to-make-the-inter-planetary-file-system-human-friendly-e4e95df0c6fa
+[cids]:            https://docs.ipfs.io/guides/concepts/cid/
+[dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
 
 
 | IPFS Applications | Tutorials |  Examples |                 
 | --------------- |  ---------   | ------|
+| Overview         |             | [awesome][] |
 | Static websites  | [gatsby][]  |   |
 
 
-
 [gatsby]:     https://interplanetarygatsby.com/ipfs-deploy/
+[awesome]:    https://awesome.ipfs.io
+
+
