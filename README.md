@@ -1,4 +1,5 @@
 ![logo][]
+
 [logo]:            https://web3examples.github.io/logo.png
 
 # IPFS
@@ -9,15 +10,15 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                             | [ipfs.io]<br>[reddit]|                | [github-ipfs] |    |
+| General info    |                             | [ipfs.io]<br>[reddit]<>[consensys-intro]|                | [github-ipfs] |    |
 | Architecture    |                             | 
-| IPFS Content Identifiers | [cids][]           |                 |                    |            |[gethash](gethash) |
-| Dns link        |                             | [dnslink][]<br>[dnslink.io]      |
-| IPFS Node       | [go-ipfs][]<br>[js-ipfs][]<br>[orion][]   |
-| IPFS Explorer   | [webui][]<br> [ipld explore][]
-| IPFS Gateway    | [gateway-check][] |
-| IPFS Connect to Web2 |                        | [userfriendly][]
-| IPFS Pinning    | [Pinata](https://pinata.cloud) | [How to](https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885) 
+| IPFS Content Identifiers | [cids]           |                 |                    |            |[gethash](gethash) |
+| Dns link        |                             | [dnslink]<br>[dnslink.io]      |
+| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  |
+| IPFS Explorer   | [webui]<br> [ipld explore]
+| IPFS Gateway    | [gateway-check] |
+| IPFS Connect to Web2 |                        | [userfriendly]
+| IPFS Pinning    | [Pinata] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
 [ipfs.io]:         https://ipfs.io
@@ -36,6 +37,10 @@ Examples related to ipfs
 [cids]:            https://docs.ipfs.io/guides/concepts/cid/
 [dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
 [dnslink.io]:      http://dnslink.io/
+[consensys-intro]: https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0 
+[Pinata]:          https://pinata.cloud
+[How to]:          https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885
+
 
 | IPFS Applications | Tutorials |  Examples |                 
 | --------------- |  ---------   | ------|
