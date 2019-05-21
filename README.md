@@ -51,9 +51,9 @@ Examples related to ipfs
 | --------------- |  ---------   | ------|
 | Overview         |             | [awesome][] |
 | Static websites  | [gatsby][]  |   |
+| File sharing | [dweb]
 
 
 [gatsby]:     https://interplanetarygatsby.com/ipfs-deploy/
 [awesome]:    https://awesome.ipfs.io
-
-
+[dweb]:       https://dweb.page/  
