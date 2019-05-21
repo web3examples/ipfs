@@ -49,11 +49,13 @@ Examples related to ipfs
 
 | Building blocks   | Instances | Tutorials |  Examples |
 | ---------------   |  ---------  |----------- | ------|
-| Encrypted storage | [textile]<br>[dweb] 
+| Encrypted storage | [textile]<br>[dweb]<br>[linnia]
 
 
 [textile]:         https://textile.io/
-[dweb]:             https://dweb.page/  
+[dweb]:            https://dweb.page/  
+[linnia]:          https://github.com/ConsenSys/linnia-resources
+
 
 
 | IPFS Applications | Tutorials |  Examples |
