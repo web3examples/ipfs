@@ -10,7 +10,7 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                                    | [ipfs.io]<br>[primer]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]| [github-ipfs] 
+| General info    |                                    | [ipfs.io]<br>[primer]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]<br>[dimzrio]| [github-ipfs] 
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
@@ -47,7 +47,7 @@ Examples related to ipfs
 [Youtube]:         https://www.youtube.com/results?search_query=ipfs
 [Mozilla]:         https://hacks.mozilla.org/?s=ipfs
 [gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
-
+[dimzrio]:         https://www.youtube.com/playlist?list=PLNblnG6W6-KImttnlK9zRdJ_iqyUMvHz7
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
