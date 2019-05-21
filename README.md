@@ -10,11 +10,11 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                             | [ipfs.io]<br>[reddit]<br>[consensys-intro]|                | [github-ipfs] |    |
-| Architecture    |                             | 
-| IPFS Content Identifiers | [cids]           |                 |                    |            |[gethash](gethash) |
-| Dns link        |                             | [dnslink]<br>[dnslink.io]      |
-| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  |
+| General info    |                                    | [ipfs.io]<br>[reddit]<br>[consensys-intro]|           | [github-ipfs] 
+| Architecture    |                                    | 
+| IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
+| Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
+| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
 | IPFS Explorer   | [webui]<br> [ipld explore]
 | IPFS Gateway    | [gateway-check] |
 | IPFS Connect to Web2 |                        | [userfriendly]
@@ -40,7 +40,7 @@ Examples related to ipfs
 [consensys-intro]: https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0 
 [Pinata]:          https://pinata.cloud
 [How to]:          https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885
-
+[Install-ipfs]:    https://kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232
 
 | IPFS Applications | Tutorials |  Examples |                 
 | --------------- |  ---------   | ------|
