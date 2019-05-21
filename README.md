@@ -10,7 +10,7 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                                    | [ipfs.io]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]| [github-ipfs] 
+| General info    |                                    | [ipfs.io]<br>[primer]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]| [github-ipfs] 
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
@@ -22,6 +22,7 @@ Examples related to ipfs
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
 [ipfs.io]:         https://ipfs.io
+[primer]:          http://dweb-primer.ipfs.io 
 [reddit]:          https://www.reddit.com/r/IPFS
 [IPFS Alpha Demo]: https://www.youtube.com/watch?v=8CMxDNuuAiQ
 [Install IPFS]:    https://docs.ipfs.io/introduction/install/
