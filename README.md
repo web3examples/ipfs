@@ -70,6 +70,8 @@ Examples related to ipfs
 | Overview          | [awesome]
 | Static websites   | [gatsby] 
 | Encrypted storage | [dweb]<br>[hardbin] | <br>[hardbin-github]
+| Pinning           | [pinbot]  |         | [twitter-pinbot]
+
 
 
 [gatsby]:         https://interplanetarygatsby.com/ipfs-deploy/
@@ -77,3 +79,5 @@ Examples related to ipfs
 [dweb]:           https://dweb.page/  
 [hardbin]:        https://hardbin.com
 [hardbin-github]: https://github.com/jes/hardbin
+[pinbot]:         https://twitter.com/ipfspin
+[twitter-pinbot]: https://github.com/hsanjuan/twitter-pinbot
