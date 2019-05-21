@@ -10,7 +10,7 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                                    | [ipfs.io]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]|           | [github-ipfs] 
+| General info    |                                    | [ipfs.io]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]|[Youtube]| [github-ipfs] 
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
@@ -43,6 +43,8 @@ Examples related to ipfs
 [Install-ipfs]:    https://kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232
 [Kauri]:           https://kauri.io/search-results?q=ipfs
 [Train]:           https://decentralized.blog/getting-to-know-ipfs.html
+[Youtube]:         https://www.youtube.com/results?search_query=ipfs
+
 
 | IPFS Applications | Tutorials |  Examples |                 
 | --------------- |  ---------   | ------|
