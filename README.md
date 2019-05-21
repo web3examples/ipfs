@@ -16,7 +16,7 @@ Examples related to ipfs
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
 | IPFS Explorer   | [webui]<br> [ipld explore]
-| IPFS Gateway    | [gateway-check] |
+| IPFS Gateway    | [gateway-check] |  | | [gtw-setup]
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPFS Pinning    | [Pinata] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
@@ -46,6 +46,8 @@ Examples related to ipfs
 [Train]:           https://decentralized.blog/getting-to-know-ipfs.html
 [Youtube]:         https://www.youtube.com/results?search_query=ipfs
 [Mozilla]:         https://hacks.mozilla.org/?s=ipfs
+[gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
+
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
