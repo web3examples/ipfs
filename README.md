@@ -47,13 +47,22 @@ Examples related to ipfs
 [Youtube]:         https://www.youtube.com/results?search_query=ipfs
 [Mozilla]:         https://hacks.mozilla.org/?s=ipfs
 
-| IPFS Applications | Tutorials |  Examples |                 
+| Building blocks   | Instances | Tutorials |  Examples |
+| ---------------   |  ---------  |----------- | ------|
+| Encrypted storage | [textile]<br>[dweb] 
+
+
+[textile]:         https://textile.io/
+[dweb]:             https://dweb.page/  
+
+
+| IPFS Applications | Tutorials |  Examples |
 | --------------- |  ---------   | ------|
 | Overview         |             | [awesome][] |
 | Static websites  | [gatsby][]  |   |
-| File sharing | [dweb]
+
 
 
 [gatsby]:     https://interplanetarygatsby.com/ipfs-deploy/
 [awesome]:    https://awesome.ipfs.io
-[dweb]:       https://dweb.page/  
+
