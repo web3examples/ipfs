@@ -50,7 +50,7 @@ Examples related to ipfs
 [gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
 [dimzrio]:         https://www.youtube.com/playlist?list=PLNblnG6W6-KImttnlK9zRdJ_iqyUMvHz7
 [eleks]:           https://labs.eleks.com/2019/03/ipfs-network-data-replication.html
-[github-cluster]   https://github.com/ipfs/ipfs-cluster
+[github-cluster]:  https://github.com/ipfs/ipfs-cluster
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
