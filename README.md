@@ -47,24 +47,25 @@ Examples related to ipfs
 [Youtube]:         https://www.youtube.com/results?search_query=ipfs
 [Mozilla]:         https://hacks.mozilla.org/?s=ipfs
 
-| Building blocks   | Instances | Tutorials |  Examples |
-| ---------------   |  ---------  |----------- | ------|
-| Encrypted storage | [textile]<br>[dweb]<br>[linnia]
+| Building blocks   | Instances | Tutorials |  
+| ---------------   |  ---------  |----------- |
+| Encrypted storage | [textile]<br>[linnia]
 
 
 [textile]:         https://textile.io/
-[dweb]:            https://dweb.page/  
+
 [linnia]:          https://github.com/ConsenSys/linnia-resources
 
 
 
-| IPFS Applications | Tutorials |  Examples |
-| --------------- |  ---------   | ------|
-| Overview         |             | [awesome][] |
-| Static websites  | [gatsby][]  |   |
-
+| IPFS Applications | Instance            |  Tutorials |
+| ---------------   |  ---------          | ------     |
+| Overview          | [awesome]
+| Static websites   | [gatsby] 
+| Encrypted storage | [dweb]<br>[hardbin]
 
 
 [gatsby]:     https://interplanetarygatsby.com/ipfs-deploy/
 [awesome]:    https://awesome.ipfs.io
-
+[dweb]:       https://dweb.page/  
+[hardbin]:    https://hardbin.com
