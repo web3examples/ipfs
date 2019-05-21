@@ -1,6 +1,6 @@
 ![logo][]
 
-[logo]:            https://web3examples.github.io/logo.png
+[logo]:   https://web3examples.github.io/logo.png
 
 # IPFS
 Examples related to ipfs
@@ -10,7 +10,7 @@ Examples related to ipfs
 
 | IPFS Concepts   | Instances                   | More info (text) | More info (video) |   Install  |  Examples |
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
-| General info    |                             | [ipfs.io]<br>[reddit]<>[consensys-intro]|                | [github-ipfs] |    |
+| General info    |                             | [ipfs.io]<br>[reddit]<br>[consensys-intro]|                | [github-ipfs] |    |
 | Architecture    |                             | 
 | IPFS Content Identifiers | [cids]           |                 |                    |            |[gethash](gethash) |
 | Dns link        |                             | [dnslink]<br>[dnslink.io]      |
