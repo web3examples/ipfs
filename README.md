@@ -20,7 +20,7 @@ Examples related to ipfs
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPFS Pinning    | [Pinata] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
-| IPFS Cluster    |                             | [eleks]         |                      | [github-cluster]
+| IPFS Cluster    |  [go-cluster]                 | [eleks]         |                      | [github-cluster]
 
 [ipfs.io]:         https://ipfs.io
 [primer]:          http://dweb-primer.ipfs.io 
@@ -51,6 +51,8 @@ Examples related to ipfs
 [dimzrio]:         https://www.youtube.com/playlist?list=PLNblnG6W6-KImttnlK9zRdJ_iqyUMvHz7
 [eleks]:           https://labs.eleks.com/2019/03/ipfs-network-data-replication.html
 [github-cluster]:  https://github.com/ipfs/ipfs-cluster
+[go-cluster]:      https://cluster.ipfs.io/
+
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
