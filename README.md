@@ -19,7 +19,7 @@ Examples related to ipfs
 | IPFS Explorer   | [webui]<br> [ipld explore]
 | IPFS Gateway    | [gateway-check] | [cloudflare-gtw] | | [gtw-setup]
 | IPFS Connect to Web2 |                        | [userfriendly]
-| IPFS Pinning    | [Pinata] | [How to]
+| IPFS Pinning    | [Pinata]<br>[temporal] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 | IPFS Cluster    |  [go-cluster]                 | [eleks]<br>[cluster-setup]  |                      | [github-cluster]
 
@@ -57,6 +57,8 @@ Examples related to ipfs
 [infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
 [cloudflare-gtw]:  https://developers.cloudflare.com/distributed-web/ipfs-gateway/
 [cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
+[temporal]:       https://temporal.cloud/
+
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
