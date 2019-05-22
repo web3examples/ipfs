@@ -21,7 +21,7 @@ Examples related to ipfs
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPFS Pinning    | [Pinata]<br>[temporal] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
-| IPFS Cluster    |  [go-cluster]                 | [eleks]<br>[cluster-setup]  |                      | [github-cluster]
+
 
 [ipfs.io]:         https://ipfs.io
 [primer]:          http://dweb-primer.ipfs.io 
@@ -60,16 +60,19 @@ Examples related to ipfs
 [temporal]:       https://temporal.cloud/
 
 
-| Building blocks   | Instances | Tutorials |  
-| ---------------   |  ---------  |----------- |
+| Building blocks   | Instances | Tutorials |  Github |
+| ---------------   |  ---------  |----------- | ------ |
 | Encrypted storage | [textile]<br>[linnia]
-
+| Search            | [mahuta]<br>[lens]<br>[ipfs-search] | | [mahuta-github]
+| IPFS Cluster      |  [go-cluster]   | [eleks]<br>[cluster-setup]   | [github-cluster]
 
 [textile]:         https://textile.io/
 
 [linnia]:          https://github.com/ConsenSys/linnia-resources
-
-
+[lens]:            https://temporal.cloud/lens
+[ipfs-search]:     https://ipfs-search.com
+[mahuta-github]:   https://github.com/ConsenSys/Mahuta
+[mahuta]:          https://kauri.io/article/874b1fe11d00406bbbef053405fd4538/ipfs-store-a-search-engine-for-the-distributed-web
 
 | IPFS Applications | Instance            |  Source | Documentation |
 | ---------------   |  ---------          | ------     | -|
