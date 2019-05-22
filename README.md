@@ -13,11 +13,11 @@ Examples related to ipfs
 | General info    |                                    | [ipfs.io]<br>[primer]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]<br>[dimzrio]| [github-ipfs] 
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
-| Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
+| Dns link        |                                    | [dnslink]<br>[dnslink.io]<br>[cloudflare-dnslink]     |
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
 | IPFS API        |    | [infura-ipfs]
 | IPFS Explorer   | [webui]<br> [ipld explore]
-| IPFS Gateway    | [gateway-check] |  | | [gtw-setup]
+| IPFS Gateway    | [gateway-check] | [cloudflare-gtw] | | [gtw-setup]
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPFS Pinning    | [Pinata] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
@@ -55,7 +55,8 @@ Examples related to ipfs
 [go-cluster]:      https://cluster.ipfs.io/
 [cluster-setup]:   https://medium.com/coinmonks/setting-up-your-first-distributed-private-storage-network-on-ipfs-part-1-a6ff15222b90
 [infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
-
+[cloudflare-gtw]:  https://developers.cloudflare.com/distributed-web/ipfs-gateway/
+[cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
