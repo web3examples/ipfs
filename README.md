@@ -17,7 +17,6 @@ Examples related to ipfs
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
 | IPFS API        |    | [infura-ipfs]
 | IPFS Explorer   | [webui]<br> [ipld explore]
-
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
