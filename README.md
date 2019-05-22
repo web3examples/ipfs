@@ -19,7 +19,6 @@ Examples related to ipfs
 | IPFS Explorer   | [webui]<br> [ipld explore]
 | IPFS Gateway    | [gateway-check] | [cloudflare-gtw] | | [gtw-setup]
 | IPFS Connect to Web2 |                        | [userfriendly]
-| IPFS Pinning    | [Pinata]<br>[temporal] | [How to]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
 
@@ -41,7 +40,6 @@ Examples related to ipfs
 [dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
 [dnslink.io]:      http://dnslink.io/
 [consensys-intro]: https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0 
-[Pinata]:          https://pinata.cloud
 [How to]:          https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885
 [Install-ipfs]:    https://kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232
 [Kauri]:           https://kauri.io/search-results?q=ipfs
@@ -57,7 +55,7 @@ Examples related to ipfs
 [infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
 [cloudflare-gtw]:  https://developers.cloudflare.com/distributed-web/ipfs-gateway/
 [cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
-[temporal]:       https://temporal.cloud/
+
 
 
 | Building blocks   | Instances | Tutorials |  Github |
@@ -65,6 +63,12 @@ Examples related to ipfs
 | Encrypted storage | [textile]<br>[linnia]
 | Search            | [mahuta]<br>[lens]<br>[ipfs-search] | | [mahuta-github]
 | IPFS Cluster      |  [go-cluster]   | [eleks]<br>[cluster-setup]   | [github-cluster]
+| IPFS Pinning    | [Pinata]<br>[temporal] | [How to] | [temporal-docs]
+
+
+[Pinata]:          https://pinata.cloud
+[temporal]:       https://temporal.cloud/
+[temporal-docs]:  https://ipfs.io/ipns/docs.api.temporal.cloud/
 
 [textile]:         https://textile.io/
 
