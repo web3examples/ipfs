@@ -15,6 +15,7 @@ Examples related to ipfs
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]      |
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
+| IPFS API        |    | [infura-ipfs]
 | IPFS Explorer   | [webui]<br> [ipld explore]
 | IPFS Gateway    | [gateway-check] |  | | [gtw-setup]
 | IPFS Connect to Web2 |                        | [userfriendly]
@@ -53,6 +54,8 @@ Examples related to ipfs
 [github-cluster]:  https://github.com/ipfs/ipfs-cluster
 [go-cluster]:      https://cluster.ipfs.io/
 [cluster-setup]:   https://medium.com/coinmonks/setting-up-your-first-distributed-private-storage-network-on-ipfs-part-1-a6ff15222b90
+[infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
+
 
 | Building blocks   | Instances | Tutorials |  
 | ---------------   |  ---------  |----------- |
