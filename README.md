@@ -82,7 +82,7 @@ Examples related to ipfs
 | Encrypted storage | [dweb]<br>[hardbin] | <br>[hardbin-github]
 | Pinning           | [pinbot]  |         | [twitter-pinbot]
 | IPFS Explorer     | [webui]<br> [ipld explore]
-| Editor            | [peerpad]
+| Editor            | [peerpad]           | [peerpad-github]
 
 [gatsby]:         https://interplanetarygatsby.com/ipfs-deploy/
 [awesome]:        https://awesome.ipfs.io
@@ -94,3 +94,4 @@ Examples related to ipfs
 [webui]:          https://webui.ipfs.io
 [ipld explore]:   https://explore.ipld.io/
 [peerpad]:        https://peerpad.net/#/
+[peerpad-github]: https://github.com/ipfs-shipyard/peerpad
