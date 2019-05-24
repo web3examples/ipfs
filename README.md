@@ -14,13 +14,13 @@ Examples related to ipfs
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]<br>[cloudflare-dnslink]     |
-| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
+| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs] |             | [js-ipfs-github]  |           |
 | IPFS API        |    | [infura-ipfs] | [upload-js]
-
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
 
+[js-ipfs]:         https://js.ipfs.io/
 [ipfs.io]:         https://ipfs.io
 [primer]:          http://dweb-primer.ipfs.io 
 [reddit]:          https://www.reddit.com/r/IPFS
@@ -28,7 +28,7 @@ Examples related to ipfs
 [Install IPFS]:    https://docs.ipfs.io/introduction/install/
 [Tutorial]:        https://proto.school/#/tutorials
 [go-ipfs]:         https://github.com/ipfs/go-ipfs
-[js-ipfs]:         https://github.com/ipfs/js-ipfs
+[js-ipfs-github]:  https://github.com/ipfs/js-ipfs
 [orion]:           https://orion.siderus.io
 [github-ipfs]:     https://github.com/ipfs
 [userfriendly]:    https://hackernoon.com/ten-terrible-attempts-to-make-the-inter-planetary-file-system-human-friendly-e4e95df0c6fa
@@ -51,6 +51,7 @@ Examples related to ipfs
 [cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 [upload-js]:           https://www.youtube.com/watch?v=I0UolzV3ico&feature=share
 
+
 | Building blocks   | Instances | Tutorials |  Github |
 | ---------------   |  ---------  |----------- | ------ |
 | Encrypted storage | [textile]<br>[linnia]
@@ -58,6 +59,7 @@ Examples related to ipfs
 | IPFS Cluster      | [go-cluster]   | [eleks]<br>[cluster-setup]   | [github-cluster]
 | IPFS Pinning      | [Pinata]<br>[temporal] | [How to] | [temporal-docs]
 | IPFS Gateway      | [gateway-check] | [cloudflare-gtw] | | [gtw-setup]
+
 
 [Pinata]:          https://pinata.cloud
 [temporal]:       https://temporal.cloud/
