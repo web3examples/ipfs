@@ -83,6 +83,8 @@ Examples related to ipfs
 | Pinning           | [pinbot]  |         | [twitter-pinbot]
 | IPFS Explorer     | [webui]<br> [ipld explore]
 | Editor            | [peerpad]           | [peerpad-github]
+| Dataset storage   | [qri]
+
 
 [gatsby]:         https://interplanetarygatsby.com/ipfs-deploy/
 [awesome]:        https://awesome.ipfs.io
@@ -95,3 +97,4 @@ Examples related to ipfs
 [ipld explore]:   https://explore.ipld.io/
 [peerpad]:        https://peerpad.net/#/
 [peerpad-github]: https://github.com/ipfs-shipyard/peerpad
+[qri]:            https://qri.io/
