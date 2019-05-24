@@ -16,7 +16,7 @@ Examples related to ipfs
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]<br>[cloudflare-dnslink]     |
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs]
 | IPFS API        |    | [infura-ipfs] | [upload-js]
-| IPFS Explorer   | [webui]<br> [ipld explore]
+
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
 
@@ -30,8 +30,6 @@ Examples related to ipfs
 [go-ipfs]:         https://github.com/ipfs/go-ipfs
 [js-ipfs]:         https://github.com/ipfs/js-ipfs
 [orion]:           https://orion.siderus.io
-[webui]:           https://webui.ipfs.io
-[ipld explore]:    https://explore.ipld.io/
 [github-ipfs]:     https://github.com/ipfs
 [userfriendly]:    https://hackernoon.com/ten-terrible-attempts-to-make-the-inter-planetary-file-system-human-friendly-e4e95df0c6fa
 [cids]:            https://docs.ipfs.io/guides/concepts/cid/
@@ -81,7 +79,7 @@ Examples related to ipfs
 | Static websites   | [gatsby] 
 | Encrypted storage | [dweb]<br>[hardbin] | <br>[hardbin-github]
 | Pinning           | [pinbot]  |         | [twitter-pinbot]
-
+| IPFS Explorer     | [webui]<br> [ipld explore]
 
 
 [gatsby]:         https://interplanetarygatsby.com/ipfs-deploy/
@@ -91,3 +89,5 @@ Examples related to ipfs
 [hardbin-github]: https://github.com/jes/hardbin
 [pinbot]:         https://twitter.com/ipfspin
 [twitter-pinbot]: https://github.com/hsanjuan/twitter-pinbot
+[webui]:           https://webui.ipfs.io
+[ipld explore]:    https://explore.ipld.io/
