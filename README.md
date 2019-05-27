@@ -36,45 +36,55 @@ Examples related to ipfs
 [dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
 [dnslink.io]:      http://dnslink.io/
 [consensys-intro]: https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0 
-[How to]:          https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885
+
 [Install-ipfs]:    https://kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232
 [Kauri]:           https://kauri.io/search-results?q=ipfs
 [Train]:           https://decentralized.blog/getting-to-know-ipfs.html
 [Youtube]:         https://www.youtube.com/results?search_query=ipfs
 [Mozilla]:         https://hacks.mozilla.org/?s=ipfs
 [dimzrio]:         https://www.youtube.com/playlist?list=PLNblnG6W6-KImttnlK9zRdJ_iqyUMvHz7
-[eleks]:           https://labs.eleks.com/2019/03/ipfs-network-data-replication.html
-[github-cluster]:  https://github.com/ipfs/ipfs-cluster
-[go-cluster]:      https://cluster.ipfs.io/
-[cluster-setup]:   https://medium.com/coinmonks/setting-up-your-first-distributed-private-storage-network-on-ipfs-part-1-a6ff15222b90
 [infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
 [cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 [upload-js]:           https://www.youtube.com/watch?v=I0UolzV3ico&feature=share
 
 
-| Building blocks   | Instances | Tutorials |  Github |
-| ---------------   |  ---------  |----------- | ------ |
-| Encrypted storage | [textile]<br>[linnia]
-| Search            | [mahuta]<br>[lens]<br>[ipfs-search] | | [mahuta-github]
-| IPFS Cluster      | [go-cluster]   | [eleks]<br>[cluster-setup]   | [github-cluster]
-| IPFS Pinning      | [Pinata]<br>[temporal] | [How to] | [temporal-docs]
-| IPFS Gateway      | [gateway-check] | [cloudflare-gtw] | | [gtw-setup]
+| Building blocks   | Instances                              | Github | Documentation |
+| ---------------   |  ---------                             | ------ | --------------|
+| Encrypted storage | [textile]<br>[linnia]                  | [textile-github]<br>[linnia-github]
+| Search            | [mahuta]<br>[lens]<br>[ipfs-search]    | [mahuta-github]<br>[lens-github]<br>[ipfs-search-github]
+| IPFS Cluster      | [ipfs-cluster]                         | [ipfs-cluster-github]  |  [cluster-setup]<br>[cluster-tutorial]
+| IPFS Pinning      | [Pinata]<br>[temporal] | [pinata-sdk-github] <br>[temporal-github] | [pinata-howto] <br> [temporal-docs]
+| IPFS Gateway      | [gtw-check]                            | [gtw-check-github]   | [cloudflare-gtw-docs] <br> [gtw-setup]
+| Deploy websites   | [ipfs-deploy]                          | [ipfs-deploy-github]
 
 
-[Pinata]:          https://pinata.cloud
-[temporal]:       https://temporal.cloud/
-[temporal-docs]:  https://ipfs.io/ipns/docs.api.temporal.cloud/
-[textile]:         https://textile.io/
-[linnia]:          https://github.com/ConsenSys/linnia-resources
-[lens]:            https://temporal.cloud/lens
-[ipfs-search]:     https://ipfs-search.com
-[mahuta-github]:   https://github.com/ConsenSys/Mahuta
-[mahuta]:          https://kauri.io/article/874b1fe11d00406bbbef053405fd4538/ipfs-store-a-search-engine-for-the-distributed-web
-[gateway-check]:   https://ipfs.github.io/public-gateway-checker
-[cloudflare-gtw]:  https://developers.cloudflare.com/distributed-web/ipfs-gateway/
-[gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
+[textile]:             https://textile.io/
+[textile-github]:      https://github.com/textileio
+[linnia]:              https://medium.com/linnia/linnia-f4f139a795ef
+[linnia-github]:       https://github.com/ConsenSys/linnia-resources
+[mahuta]:              https://kauri.io/article/874b1fe11d00406bbbef053405fd4538/ipfs-store-a-search-engine-for-the-distributed-web
+[mahuta-github]:       https://github.com/ConsenSys/Mahuta
+[lens]:                https://temporal.cloud/lens
+[lens-github]:         https://github.com/RTradeLtd/Lens
+[ipfs-search]:         https://ipfs-search.com
+[ipfs-search-github]:  https://github.com/ipfs-search
+[ipfs-cluster]:        https://cluster.ipfs.io/
+[ipfs-cluster-github]: https://github.com/ipfs/ipfs-cluster
+[cluster-tutorial]:    https://labs.eleks.com/2019/03/ipfs-network-data-replication.html
+[cluster-setup]:      https://medium.com/coinmonks/setting-up-your-first-distributed-private-storage-network-on-ipfs-part-1-a6ff15222b90
+[Pinata]:              https://pinata.cloud
+[pinata-sdk-github]:   https://github.com/maht0rz/pinata-sdk
+[pinata-howto]:        https://medium.com/pinata/how-to-pin-to-ipfs-effortlessly-ba3437b33885
+[temporal]:            https://temporal.cloud/
+[temporal-github]:     https://github.com/RTradeLtd/Temporal
+[temporal-docs]:       https://ipfs.io/ipns/docs.api.temporal.cloud/
+[gtw-check]:           https://ipfs.github.io/public-gateway-checker
+[gtw-check-github]:    https://github.com/ipfs/public-gateway-checker
 
-
+[cloudflare-gtw-docs]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/
+[gtw-setup]:           https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
+[ipfs-deploy]:         https://interplanetarygatsby.com/ipfs-deploy/
+[ipfs-deploy-github]:  https://github.com/agentofuser/ipfs-deploy
 
 | IPFS Applications | Instance            |  Github |
 | ---------------   |  ---------          | ------- |
@@ -88,7 +98,7 @@ Examples related to ipfs
 | Video hosting     | [dtube]     | [dtube-github]
 
 
-[gatsby]:          https://interplanetarygatsby.com/ipfs-deploy/
+
 [awesome]:         https://awesome.ipfs.io
 [dweb]:            https://dweb.page/ 
 [dweb-github]:     https://github.com/PACTCare/Dweb.page
