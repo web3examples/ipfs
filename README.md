@@ -96,7 +96,7 @@ Examples related to ipfs
 | Dataset storage   | [qri]               | [qri-github]
 | Video hosting     | [dtube]             | [dtube-github]
 | Live streaming    |                     | [livestr-github]
-[ Wikipedia         | [wikipedia-en]<br>[wikipedia-links]   | [wikipedia-github]
+| Wikipedia         | [wikipedia-en]<br>[wikipedia-links]   | [wikipedia-github]
 
 
 [awesome]:          https://awesome.ipfs.io
