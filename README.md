@@ -75,26 +75,33 @@ Examples related to ipfs
 [gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
 
 
-| IPFS Applications | Instance            |  Source | Documentation |
-| ---------------   |  ---------          | ------     | -|
+| IPFS Applications | Instance            |  Github 
+| ---------------   |  ---------          | 
 | Overview          | [awesome]
 | Static websites   | [gatsby] 
-| Encrypted storage | [dweb]<br>[hardbin] | <br>[hardbin-github]
-| Pinning           | [pinbot]  |         | [twitter-pinbot]
-| IPFS Explorer     | [webui]<br> [ipld explore]
+| Encrypted storage | [dweb]<br>[hardbin] | [dweb-github]<br>[hardbin-github]
+| Pinning           | [twpinbot]          | twpinbot-github]
+| IPFS Explorer     | [webui]<br> [ipld explore] | [webui-github]<br>[ipld-exp-github]
 | Editor            | [peerpad]           | [peerpad-github]
-| Dataset storage   | [qri]
+| Dataset storage   | [qri]   | [qri-github]
+| Video hosting     | [dtube]     | [dtube-github]
 
 
-[gatsby]:         https://interplanetarygatsby.com/ipfs-deploy/
-[awesome]:        https://awesome.ipfs.io
-[dweb]:           https://dweb.page/  
-[hardbin]:        https://hardbin.com
-[hardbin-github]: https://github.com/jes/hardbin
-[pinbot]:         https://twitter.com/ipfspin
-[twitter-pinbot]: https://github.com/hsanjuan/twitter-pinbot
-[webui]:          https://webui.ipfs.io
-[ipld explore]:   https://explore.ipld.io/
-[peerpad]:        https://peerpad.net/#/
-[peerpad-github]: https://github.com/ipfs-shipyard/peerpad
-[qri]:            https://qri.io/
+[gatsby]:          https://interplanetarygatsby.com/ipfs-deploy/
+[awesome]:         https://awesome.ipfs.io
+[dweb]:            https://dweb.page/ 
+[dweb-github]:     https://github.com/PACTCare/Dweb.page
+[hardbin]:         https://hardbin.com
+[hardbin-github]:  https://github.com/jes/hardbin
+[twpinbot]:        https://twitter.com/ipfspin
+[twpinbot-github]: https://github.com/hsanjuan/twitter-pinbot
+[webui]:           https://webui.ipfs.io
+[webui-github]:    https://github.com/ipfs-shipyard/ipfs-webui
+[ipld explore]:    https://explore.ipld.io/
+[ipld-exp-github]: https://github.com/ipfs-shipyard/ipld-explorer
+[peerpad]:         https://peerpad.net/#/
+[peerpad-github]:  https://github.com/ipfs-shipyard/peerpad
+[qri]:             https://qri.io/
+[qri-github]:      https://github.com/qri-io
+[dtube]:           https://d.tube
+[dtube-github]:    https://github.com/dtube
