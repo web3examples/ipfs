@@ -96,23 +96,28 @@ Examples related to ipfs
 | Dataset storage   | [qri]               | [qri-github]
 | Video hosting     | [dtube]             | [dtube-github]
 | Live streaming    |                     | [livestr-github]
+[ Wikipedia         | [wikipedia-en]<br>[wikipedia-links]   | [wikipedia-github]
 
 
-[awesome]:         https://awesome.ipfs.io
-[dweb]:            https://dweb.page/ 
-[dweb-github]:     https://github.com/PACTCare/Dweb.page
-[hardbin]:         https://hardbin.com
-[hardbin-github]:  https://github.com/jes/hardbin
-[twpinbot]:        https://twitter.com/ipfspin
-[twpinbot-github]: https://github.com/hsanjuan/twitter-pinbot
-[webui]:           https://webui.ipfs.io
-[webui-github]:    https://github.com/ipfs-shipyard/ipfs-webui
-[ipld explore]:    https://explore.ipld.io/
-[ipld-exp-github]: https://github.com/ipfs-shipyard/ipld-explorer
-[peerpad]:         https://peerpad.net/#/
-[peerpad-github]:  https://github.com/ipfs-shipyard/peerpad
-[qri]:             https://qri.io/
-[qri-github]:      https://github.com/qri-io
-[dtube]:           https://d.tube
-[dtube-github]:    https://github.com/dtube
-[livestr-github]:  https://github.com/tomeshnet/ipfs-live-streaming
+[awesome]:          https://awesome.ipfs.io
+[dweb]:             https://dweb.page/ 
+[dweb-github]:      https://github.com/PACTCare/Dweb.page
+[hardbin]:          https://hardbin.com
+[hardbin-github]:   https://github.com/jes/hardbin
+[twpinbot]:         https://twitter.com/ipfspin
+[twpinbot-github]:  https://github.com/hsanjuan/twitter-pinbot
+[webui]:            https://webui.ipfs.io
+[webui-github]:     https://github.com/ipfs-shipyard/ipfs-webui
+[ipld explore]:     https://explore.ipld.io/
+[ipld-exp-github]:  https://github.com/ipfs-shipyard/ipld-explorer
+[peerpad]:          https://peerpad.net/#/
+[peerpad-github]:   https://github.com/ipfs-shipyard/peerpad
+[qri]:              https://qri.io/
+[qri-github]:       https://github.com/qri-io
+[dtube]:            https://d.tube
+[dtube-github]:     https://github.com/dtube
+[livestr-github]:   https://github.com/tomeshnet/ipfs-live-streaming
+[wikipedia-en]:     https://ipfs.io/ipfs/QmXoypizjW3WknFiJnKLwHCnL72vedxjQkDDP1mXWo6uco/wiki/
+[wikipedia-links]:  https://github.com/ipfs/distributed-wikipedia-mirror/blob/master/snapshot-hashes.yml
+[wikipedia-github]: https://github.com/ipfs/distributed-wikipedia-mirror
+
