@@ -75,8 +75,9 @@ Examples related to ipfs
 [gtw-setup]:       https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
 
 
-| IPFS Applications | Instance            |  Github 
-| ---------------   |  ---------          | 
+
+| IPFS Applications | Instance            |  Github |
+| ---------------   |  ---------          | ------- |
 | Overview          | [awesome]
 | Static websites   | [gatsby] 
 | Encrypted storage | [dweb]<br>[hardbin] | [dweb-github]<br>[hardbin-github]
