@@ -91,7 +91,7 @@ Examples related to ipfs
 | Overview          | [awesome]
 | Static websites   | [gatsby] 
 | Encrypted storage | [dweb]<br>[hardbin] | [dweb-github]<br>[hardbin-github]
-| Pinning           | [twpinbot]          | twpinbot-github]
+| Pinning           | [twpinbot]          | [twpinbot-github]
 | IPFS Explorer     | [webui]<br> [ipld explore] | [webui-github]<br>[ipld-exp-github]
 | Editor            | [peerpad]           | [peerpad-github]
 | Dataset storage   | [qri]   | [qri-github]
