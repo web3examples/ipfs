@@ -93,8 +93,9 @@ Examples related to ipfs
 | Pinning           | [twpinbot]          | [twpinbot-github]
 | IPFS Explorer     | [webui]<br> [ipld explore] | [webui-github]<br>[ipld-exp-github]
 | Editor            | [peerpad]           | [peerpad-github]
-| Dataset storage   | [qri]   | [qri-github]
-| Video hosting     | [dtube]     | [dtube-github]
+| Dataset storage   | [qri]               | [qri-github]
+| Video hosting     | [dtube]             | [dtube-github]
+| Live streaming    |                     | [livestr-github]
 
 
 [awesome]:         https://awesome.ipfs.io
@@ -114,3 +115,4 @@ Examples related to ipfs
 [qri-github]:      https://github.com/qri-io
 [dtube]:           https://d.tube
 [dtube-github]:    https://github.com/dtube
+[livestr-github]:  https://github.com/tomeshnet/ipfs-live-streaming
