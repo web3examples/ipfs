@@ -14,13 +14,15 @@ Examples related to ipfs
 | Architecture    |                                    | 
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]<br>[cloudflare-dnslink]     |
-| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs] |             | [js-ipfs-github]  |           |
+| IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs] |             | [js-ipfs-github]  |  [js-ipfs-examples]         |
 | IPFS API        |    | [infura-ipfs] | [upload-js]
 | IPFS Connect to Web2 |                        | [userfriendly]
 | IPLD DAG        |                               |                |                    |          |  [Tutorial] |
+| PubSub          |  [pubsub]                     |                |                    |          | [pubsub-example]<br>[pubsub-room]
 
 
 [js-ipfs]:         https://js.ipfs.io/
+[js-ipfs-examples]: https://github.com/ipfs/js-ipfs/tree/master/examples
 [ipfs.io]:         https://ipfs.io
 [primer]:          http://dweb-primer.ipfs.io 
 [reddit]:          https://www.reddit.com/r/IPFS
@@ -36,7 +38,6 @@ Examples related to ipfs
 [dnslink]:         https://docs.ipfs.io/guides/concepts/dnslink/
 [dnslink.io]:      http://dnslink.io/
 [consensys-intro]: https://medium.com/@ConsenSys/an-introduction-to-ipfs-9bba4860abd0 
-
 [Install-ipfs]:    https://kauri.io/article/b01b9b7bebcd4ebf80edf021bdd0e232
 [Kauri]:           https://kauri.io/search-results?q=ipfs
 [Train]:           https://decentralized.blog/getting-to-know-ipfs.html
@@ -46,7 +47,9 @@ Examples related to ipfs
 [infura-ipfs]:     https://infura.io/docs/ipfs/get/pin_add
 [cloudflare-dnslink]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/connecting-website/
 [upload-js]:           https://www.youtube.com/watch?v=I0UolzV3ico&feature=share
-
+[pubsub]:           https://blog.ipfs.io/25-pubsub/
+[pubsub-example]:   https://github.com/tableflip/ipfs-pubsub-chat-example
+[pubsub-room]:      https://github.com/ipfs-shipyard/ipfs-pubsub-room
 
 | Building blocks   | Instances                              | Github | Documentation |
 | ---------------   |  ---------                             | ------ | --------------|
@@ -56,7 +59,7 @@ Examples related to ipfs
 | IPFS Pinning      | [Pinata]<br>[temporal] | [pinata-sdk-github] <br>[temporal-github] | [pinata-howto] <br> [temporal-docs]
 | IPFS Gateway      | [gtw-check]                            | [gtw-check-github]   | [cloudflare-gtw-docs] <br> [gtw-setup]
 | Deploy websites   | [ipfs-deploy]                          | [ipfs-deploy-github]
-
+| Database          | Orbit-DB                               | [orbit-db-github]  | [orbit-db-deploy] 
 
 [textile]:             https://textile.io/
 [textile-github]:      https://github.com/textileio
@@ -80,11 +83,12 @@ Examples related to ipfs
 [temporal-docs]:       https://ipfs.io/ipns/docs.api.temporal.cloud/
 [gtw-check]:           https://ipfs.github.io/public-gateway-checker
 [gtw-check-github]:    https://github.com/ipfs/public-gateway-checker
-
 [cloudflare-gtw-docs]: https://developers.cloudflare.com/distributed-web/ipfs-gateway/
 [gtw-setup]:           https://medium.com/@rossbulat/introduction-to-ipfs-set-up-nodes-on-your-network-with-http-gateways-10e21ea689a4
 [ipfs-deploy]:         https://interplanetarygatsby.com/ipfs-deploy/
 [ipfs-deploy-github]:  https://github.com/agentofuser/ipfs-deploy
+[orbit-db-github]:     https://github.com/orbitdb/orbit-db
+[orbit-db-deploy]:     https://medium.com/@rossbulat/orbitdb-deploying-the-distributed-ipfs-database-with-react-79afa1a7fabb
 
 | IPFS Applications | Instance            |  Github |
 | ---------------   |  ---------          | ------- |
