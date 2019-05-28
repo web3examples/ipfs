@@ -1,20 +1,16 @@
 {
-    "name": "gethash",
+    "name": "findprovs",
     "version": "1.0.0",
     "author": "Gerard Persoon (mail@gpersoon.com)",
-    "description": "Show how IPFS hashes are created",
+    "description": "Find CID via findprovs",
     "license": "MIT",
     "scripts": {
         "start": "node ./index.js"
     },
     "dependencies": {
-        "base32-encode": ">=1.1.1",
+        "ipfs": "^0.36.2",
         "ipfs-http-client": ">=31.0.0",
-        "ipfs-unixfs": ">=0.1.16",
-        "ipld-dag-pb": ">=0.17.0",
-        "js-sha256": "^0.9.0",
-        "multihashes": ">=0.4.14",
-        "multihashing": ">=0.3.3"
+        "why-is-node-running": "^2.1.0"
     },
     "repository": {
         "type": "git",

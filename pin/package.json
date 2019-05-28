@@ -1,0 +1,17 @@
+{
+    "name": "pin",
+    "version": "1.0.0",
+    "author": "Gerard Persoon (mail@gpersoon.com)",
+    "description": "Show how to pin a document via Infura",
+    "license": "MIT",
+    "scripts": {
+        "start": "node ./index.js"
+    },
+    "dependencies": {
+        "ipfs-http-client": "^32.0.1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/web3examples/web3examples.github.io"
+    }
+}
