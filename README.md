@@ -12,6 +12,7 @@ Examples related to ipfs
 | --------------- |  ---------                  | ---------       | ---------          | ---------  |  -------- | 
 | General info    |                                    | [ipfs.io]<br>[primer]<br>[reddit]<br>[consensys-intro]<br>[Kauri]<br>[Train]<br>[Mozilla]|[Youtube]<br>[dimzrio]| [github-ipfs] 
 | Architecture    |                                    | 
+| Developer resources | [ipfs-news]
 | IPFS Content Identifiers | [cids]                    |                 |                    |            |[gethash](gethash) 
 | Dns link        |                                    | [dnslink]<br>[dnslink.io]<br>[cloudflare-dnslink]     |
 | IPFS Node       | [go-ipfs]<br>[js-ipfs]<br>[orion]  | [Install-ipfs] |             | [js-ipfs-github]  |  [js-ipfs-examples]         |
@@ -50,6 +51,7 @@ Examples related to ipfs
 [pubsub]:           https://blog.ipfs.io/25-pubsub/
 [pubsub-example]:   https://github.com/tableflip/ipfs-pubsub-chat-example
 [pubsub-room]:      https://github.com/ipfs-shipyard/ipfs-pubsub-room
+[ipfs-news]:        https://tinyletter.com/ipfsnewsletter
 
 | Building blocks   | Instances                              | Github | Documentation |
 | ---------------   |  ---------                             | ------ | --------------|
