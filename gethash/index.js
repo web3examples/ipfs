@@ -76,7 +76,6 @@ process.stdin.resume();
 process.stdin.on('data', () =>
 { 
    console.log('Exiting..');
-    process.exit(0);
-   });
+   process.exit(0);   
 });
 
