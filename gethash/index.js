@@ -1,4 +1,20 @@
-console.log("Show how IPFS hashes are created");
+
+
+if (typeof document !='undefined') {
+    var divlog=document.createElement("div");
+    document.body.appendChild(log);
+}    
+
+function log(str,...arguments) {        
+  if (typeof document !='undefined') {
+    var logstr=arguments.toString();
+    divlog.innerHTML +=str+" "+logstr+"\n";
+  }
+  console.log(str,arguments);
+}
+
+log("Show how IPFS hashes are created");
+
 
 const Unixfs = require('ipfs-unixfs');
 const dagPB = require('ipld-dag-pb');
