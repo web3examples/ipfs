@@ -69,3 +69,14 @@ ipfs.add(bufDataToHash, {'cid-version': 1,onlyHash: true}).then( (r) =>{console.
 ipfs.add(bufDataToHash, {'cid-version': 1,'cid-base': 'base32',onlyHash: true}).then( (r) =>{console.log("Cidv1 "+sDataToHash+" via ipfs.add          (B32)=>"+r[0].hash);});  //zb2rhaMwCEJiQ7FbitJJhtQMybzLetLwWJeHSSWzj5vJgguR3
 
 
+
+console.log('Press key & enter to exit');
+process.stdin.setRawMode=true
+process.stdin.resume();
+process.stdin.on('data', () =>
+{ 
+   console.log('Exiting..');
+    process.exit(0);
+   });
+});
+
