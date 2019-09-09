@@ -53,6 +53,14 @@ Examples related to ipfs
 [pubsub-room]:      https://github.com/ipfs-shipyard/ipfs-pubsub-room
 [ipfs-news]:        https://tinyletter.com/ipfsnewsletter
 
+
+# Other sources
+
+* [ipfsnewsletter]
+
+[ipfsnewsletter]: http://tinyletter.com/ipfsnewsletter
+
+
 | Building blocks   | Instances                              | Github | Documentation |
 | ---------------   |  ---------                             | ------ | --------------|
 | Encrypted storage | [textile]<br>[linnia]                  | [textile-github]<br>[linnia-github]
