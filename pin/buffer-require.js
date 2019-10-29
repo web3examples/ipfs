@@ -1,0 +1,1 @@
+var Buffer = require('buffer/').Buffer  // note: the trailing slash is important!
