@@ -324,6 +324,32 @@ https://github.com/ConsenSys/Mahuta
 // app overivew
 https://awesome.ipfs.io/
 
+// videos
+https://ipfs.io/media/
+
+// encryption
+https://github.com/mitchellpkt/CIPFS
+https://github.com/ConsenSys/stow-resources
+// tools
+https://fission.codes/
+https://docs.lightstreams.network/products-1/smart-vault
+// library
+https://github.com/textileio/js-ipfs-lite
+
+// pinning
+https://axel.network/ipfs/
+https://github.com/cluster-labs/ipfscloud-web (site doesn't work anymore)
+https://pinata.cloud
+https://temporal.cloud
+https://www.eternum.io
+https://www.liquidapps.io/
+https://fission.codes/
+
+// shortener
+https://boom.fyi/
+
+// brig - decentralized & secure synchronization
+https://brig.readthedocs.io/en/master/
 
 ### Tools
 

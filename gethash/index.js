@@ -23,7 +23,8 @@ const sha256 = require('js-sha256');
 const multihash = require('multihashes'); // toB58String
 const base32Encode = require('base32-encode');
 
-var sDataToHash="hello worlds";                      console.log("00",sDataToHash);// document text to hash // from example on https://blog.ipfs.io/0-hello-worlds/
+var sDataToHash="Web3examples \r\n"
+//var sDataToHash="hello worlds";                      console.log("00",sDataToHash);// document text to hash // from example on https://blog.ipfs.io/0-hello-worlds/
 var bufDataToHash = Buffer.from(sDataToHash+"\n");  // newline because that also happens in text file
                                                      console.log("01",bufDataToHash);        // <Buffer                   68 65 6c 6c 6f 20 77 6f 72 6c 64 73 0a>
 // For Cidv0: use unixFS & DAG

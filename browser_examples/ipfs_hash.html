@@ -1,0 +1,32 @@
+<html>
+    <head>      
+    <script src="https://npmcdn.com/ipfs-unixfs/dist/index.min.js"> </script>  
+    <script src="https://bundle.run/buffer"></script>     
+    <script src="https://unpkg.com/ipld-dag-pb/dist/index.min.js"> </script>
+ </head>
+    <body>
+        <h1>IPFS hash</h1>
+        test
+        <pre id="log" style="width:100%;height:200px"></pre>
+        <script type="text/javascript">
+        function log(logstr) {   
+            document.getElementById("log").innerHTML +=logstr+"\n";
+        }
+        
+        console.log("Start");
+        const Buffer=window.buffer.Buffer;
+        
+        var sDataToHash="Web3examples \r\n"
+        var bufDataToHash = Buffer.from(sDataToHash+"\n");
+        console.log(bufDataToHash)
+        
+           var unixFs = new window.IpfsUnixfs('file', bufDataToHash); 
+           console.log(unixFs)
+           var ufsDataToHash=unixFs.marshal();
+           console.log(ufsDataToHash);
+           var dd=new window.IpldDagPb.DAGNode();
+           var dagNode = dd.create(ufsDataToHash);
+        
+		</script>
+	</body>
+</html>
