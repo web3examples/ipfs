@@ -15,7 +15,7 @@
             log(`Checking hash ${hash}`)
             const file = await ipfs.cat(hash).catch(x=> log(`Error ${x}`));
             if (file)
-                log(`Hash ${hash} => ${file.toString('utf8')}`)
+                log(file.toString('utf8'));
         }
         f();
 		</script>
