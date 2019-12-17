@@ -318,6 +318,12 @@ management tools for ipfs
 // host ipfs servers?
 https://intellihub.ai/docs/blockchain/block-ipfs/#
 
+// search engine
+https://github.com/ConsenSys/Mahuta
+
+// app overivew
+https://awesome.ipfs.io/
+
 
 ### Tools
 

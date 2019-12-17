@@ -15,9 +15,9 @@
             const Buffer=window.buffer.Buffer;
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');         
             const bufDataToHash = Buffer.from(str);
-            log(`Adding ${str} to ipfs via Infura`) 
+            log(`Adding ${str} to ipfs via Infura`);
             const hash=await ipfs.add(bufDataToHash).catch(console.log); 
-            log(`Hash ${hash[0].hash}`)
+            log(`Hash ${hash[0].hash}`);
         }
         f();
 		</script>
