@@ -6,8 +6,12 @@ Several IPFS Browser Examples. ([Up](..) [Home](..\..))
 | ---------                     | -------               | ----------- 
 | IPFS cat (localhost)          | [ipfs_cat_local]      |  [ipfs_cat_local_gh]
 | IPFS cat (infura)             | [ipfs_cat_infura]     |  [ipfs_cat_infura_gh]
+| IPFS add (infura)             | [ipfs_add_infura]     |  [ipfs_add_infura_gh]
 
 [ipfs_cat_local]:         https://web3examples.com/ipfs/browser_examples/ipfs_cat_local.html
 [ipfs_cat_infura]:        https://web3examples.com/ipfs/browser_examples/ipfs_cat_infura.html
+[ipfs_add_infura]:        https://web3examples.com/ipfs/browser_examples/ipfs_add_infura.html
+
 [ipfs_cat_local_gh]:      https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_cat_local.html
 [ipfs_cat_infura_gh]:     https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_cat_infura.html
+[ipfs_add_infura_gh]:     https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_add_infura.html

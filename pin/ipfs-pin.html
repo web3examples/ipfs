@@ -1,6 +1,7 @@
 <html>
     <head>      
     <script src="https://cdn.jsdelivr.net/npm/buffer@5.4.3/index.min.js"> 
+    <script src="https://bundle.run/buffer"> 
     <!--
 		<script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.min.js">
 		
@@ -21,7 +22,7 @@
 		{
 		   log("in test");
 			var sDataToHash="This is a test";   // document text to hash 
-			var bufDataToHash = Buffer.from(sDataToHash+"\n");  // newline because that also happens in text file  
+			var bufDataToHash = windows.buffer.from(sDataToHash+"\n");  // newline because that also happens in text file  
 //			var hash=await ipfs.add(bufDataToHash).catch(console.log); // already pinnned by default, see https://infura.io/docs/ipfs/post/add
 			 //                                   {'cid-version': 1,'cid-base': 'base32'}
 //			log(hash[0]);        
