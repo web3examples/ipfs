@@ -296,5 +296,22 @@ https://eth.pictures/
 //qri on top of ipfs
 https://qri.io/docs/concepts/ipfs_to_qri/
 
+// 50 mb upload, not pinned
+https://globalupload.io/
+
 
 management tools for ipfs
+
+// host ipfs servers?
+https://intellihub.ai/docs/blockchain/block-ipfs/#
+
+
+### Tools
+
+| Tool                           | Type              | source / link                    | Install on Windows     | Install on Macintosh   |  Install on Ubuntu        
+| ------------                   | --------          | ---------                        | -----                  | -----------            | -----------               
+| Grid                           | Offline           | [grid]
+| IPFS Companion                 | Browser extension | [ipfscompanion]
+
+[grid]:          https://grid.ethereum.org
+[ipfscompanion]: https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch
