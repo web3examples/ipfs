@@ -12,8 +12,10 @@
         async function f() {
             const hash="QmTSYYGTmBKa3qtqsBy5jLaEqvScuP4A3k6p1KV65b9hNQ";
             const ipfs = window.IpfsHttpClient('http://localhost:5001');
-            const file = await ipfs.cat(hash);
-            log(`Hash ${hash} => ${file.toString('utf8')}`)
+            log(`Checking hash ${hash}`)
+            const file = await ipfs.cat(hash).catch(x=> log(`Error ${x}`));
+            if (file)
+                log(`Hash ${hash} => ${file.toString('utf8')}`)
         }
         f();
 		</script>
