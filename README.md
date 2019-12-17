@@ -2,13 +2,26 @@
 
 [logo]:   https://web3examples.github.io/logo.png
 
-# IPFS
+
 Examples related to ipfs
 
-![](architecture/ipfs.svg)
+- [Browser Examples](#browser-examples)
+- [Concepts](#concepts)
+  - [Software](#software)
+- [Other sources](#other-sources)
+    - [Tools](#tools)
 
 
-## Concepts
+
+
+# Browser Examples
+See: [Browser Examples](browser_examples) 
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+
+
+
+# Concepts
 | IPFS Concepts  
 | --------------
 | [ipfs_docs]
