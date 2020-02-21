@@ -360,3 +360,14 @@ https://brig.readthedocs.io/en/master/
 
 [grid]:          https://grid.ethereum.org
 [ipfscompanion]: https://chrome.google.com/webstore/detail/ipfs-companion/nibjojkomfdiaoajekhjakgkdhaomnch
+
+
+## Application development
+
+| Enviroment 
+|-----------
+| [solui]  (ethereum dapps)
+| [anytype]
+
+[anytype]:  https://www.anytype.io  
+[solui]:    https://solui.dev/
