@@ -1,7 +1,12 @@
 <html>
     <head>      
     <script src="https://unpkg.com/ipfs-http-client/dist/index.js"></script>  
-    <script src="https://bundle.run/buffer"></script>  
+    <!--script src="https://bundle.run/buffer"></script-->  
+    
+  <!--  https://packd.now.sh/buffer -->
+    
+    <script src="buffer@5.6.0.js"></script>  
+    
  </head>
     <body>
         <h1>IPFS add (Infura)</h1>
@@ -16,7 +21,8 @@
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');         
             const bufDataToHash = Buffer.from(str);
             log(`Adding ${str} to ipfs via Infura`);
-            const hash=await ipfs.add(bufDataToHash).catch(console.log); 
+            const hash=await ipfs.add(bufDataToHash) //.catch(console.log); 
+            console.log(hash)
             log(`Hash ${hash[0].hash}`);
         }
         f();
