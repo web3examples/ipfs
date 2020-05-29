@@ -9,7 +9,7 @@ Several OrbitDB examples that can synchronisze
 | --------         | ----                      | -----------                | -------------------------------
 | Create database  | [create_db]               |
 | Write database   | [write_db]                |
-| Access database  | [access_db]               | [accessr_db]               |
+| Access database  | [access_db]               | [accessr_db]               | [accessh_db]  
 
 [create_db]:           https://github.com/web3examples/ethereum/blob/master/orbit/create_db.js
 [write_db]:            https://github.com/web3examples/ethereum/blob/master/orbit/write_db.js
