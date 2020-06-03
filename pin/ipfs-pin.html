@@ -1,12 +1,6 @@
 <html>
-    <head>      
-    <script src="https://cdn.jsdelivr.net/npm/buffer@5.4.3/index.min.js"> 
-    <script src="https://bundle.run/buffer"> 
-    <!--
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/Base64/1.0.2/base64.min.js">
-		
-        <script src="https://cdn.jsdelivr.net/npm/ipfs-http-client@38.0.0/src/index.min.js"> 
-        -->
+    <head>              
+        <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>        
     </head>
     <body>       
 	     <pre id="log" style="width:100%;height:200px"></pre>
@@ -16,24 +10,20 @@
             var logstr=arguments.toString();
             document.getElementById("log").innerHTML +=str+" "+logstr+"\n";
         }        
-        		
-			
+        					
 		async function test() // to be able to use await
 		{
-		   log("in test");
-			var sDataToHash="This is a test";   // document text to hash 
-			var bufDataToHash = windows.buffer.from(sDataToHash+"\n");  // newline because that also happens in text file  
-//			var hash=await ipfs.add(bufDataToHash).catch(console.log); // already pinnned by default, see https://infura.io/docs/ipfs/post/add
-			 //                                   {'cid-version': 1,'cid-base': 'base32'}
-//			log(hash[0]);        
-
+            const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001')
+			var sDataToHash="This is a test"+"\n";   // document text to hash // newline because that also happens in text file  			
+			var hash=await ipfs.add(sDataToHash);  // already pinnned by default, see https://infura.io/docs/ipfs/post/add
+			 //                                   {'cid-version': 1,'cid-base': 'base32'}            
+            for await (const result of ipfs.add(sDataToHash)) // result is an asyncIterator, so has to be read via for await .. of
+                log(`cid=${result.path}`)
 		}
 
-console.log("start");
-log ("start");
-	test();
-			
-	
+        console.log("start");
+        log ("start");
+        test();
 		</script>
 	</body>
 </html>
