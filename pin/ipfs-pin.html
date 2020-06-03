@@ -15,7 +15,7 @@
 		{
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001')
 			var sDataToHash="This is a test"+"\n";   // document text to hash // newline because that also happens in text file  			
-			var hash=await ipfs.add(sDataToHash);  // already pinnned by default, see https://infura.io/docs/ipfs/post/add
+			var hash=await ipfs.add(sDataToHash);  // already pinnned by default on infura, see https://infura.io/docs/ipfs/post/add
 			 //                                   {'cid-version': 1,'cid-base': 'base32'}            
             for await (const result of ipfs.add(sDataToHash)) // result is an asyncIterator, so has to be read via for await .. of
                 log(`cid=${result.path}`)
