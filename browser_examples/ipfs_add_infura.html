@@ -1,12 +1,6 @@
 <html>
     <head>      
-    <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>  
-    <!--script src="https://bundle.run/buffer"></script-->  
-    
-  <!--  https://packd.now.sh/buffer -->
-    
-    <script src="buffer@5.6.0.js"></script>  
-    
+    <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>
  </head>
     <body>
         <h1>IPFS add (Infura)</h1>
@@ -17,16 +11,10 @@
         }
         async function f() {
             const str="Web3examples \r\n"; // note: trailing space, CR, LF
-            const Buffer=window.buffer.Buffer;
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');         
-            const bufDataToHash = Buffer.from(str);
-            log(`Adding ${str} to ipfs via Infura`);
-            const hash=await ipfs.add(bufDataToHash) //.catch(console.log); 
-            console.log(hash)
-            log(`Hash ${hash[0].path}`);
-            
-            
-              //const cid = (await ipfs.add(str)).path;  
+            log(`Adding ${str} to ipfs via Infura`);                       
+            const result = await ipfs.add(str).catch(log)
+            log(`cid=${result.path}`)
         }
         f();
 		</script>
