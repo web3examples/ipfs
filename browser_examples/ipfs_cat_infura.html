@@ -13,6 +13,8 @@
             const hash="QmTSYYGTmBKa3qtqsBy5jLaEqvScuP4A3k6p1KV65b9hNQ";
             log(`Connecting to IPFS`);
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');  
+            const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
+            log(`IPFS Version ${JSON.stringify(version)}`)
             
             log(`Checking hash ${hash} via IPFS on Infura`)
             for await (const result of ipfs.cat(hash)) {

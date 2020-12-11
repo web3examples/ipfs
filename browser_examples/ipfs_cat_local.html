@@ -1,6 +1,6 @@
 <html>
     <head>      
-    <script src="https://unpkg.com/ipfs-http-client/dist/index.js"> </script>   
+  <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>
  </head>
     <body>
         <h1>IPFS cat (localhost)</h1>
@@ -12,11 +12,19 @@
         async function f() {
             const hash="QmTSYYGTmBKa3qtqsBy5jLaEqvScuP4A3k6p1KV65b9hNQ";
             const ipfs = window.IpfsHttpClient('http://localhost:5001');
-            log(`Checking hash ${hash} via localhost`)
-            const file = await ipfs.cat(hash).catch(x=> log(`Error ${x}`));
-            if (file)
-                log(file.toString('utf8'));
+            const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
+            log(`IPFS Version ${JSON.stringify(version)}`)
+             
+            log(`Checking hash ${hash} via local IPFS`)
+            try {
+                for await (const result of ipfs.cat(hash)) {
+                    var str = String.fromCharCode.apply(null, result); // convert uint8array to string
+                    log(`Found: ${str}`);
+                    log(`Found: ${result.toString()}`);
+                } 
+            } catch(x) { log(`Error: ${x}`); }
         }
+        
         f();
 		</script>
 	</body>
