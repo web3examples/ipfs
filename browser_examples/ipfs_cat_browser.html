@@ -1,6 +1,6 @@
 <html>
     <head>      
-    <script src="https://unpkg.com/ipfs/dist/index.js"></script>
+    <script src="https://unpkg.com/ipfs/dist/index.min.js"></script>
  </head>
     <body>
         <h1>IPFS in browser</h1>
@@ -12,13 +12,15 @@
         async function f() {
             const hash="QmTSYYGTmBKa3qtqsBy5jLaEqvScuP4A3k6p1KV65b9hNQ";
             log(`Connecting to IPFS`);
-            const node = await window.Ipfs.create();
-            log(`Status = ${ node.isOnline() ? 'online' : 'offline' }`);
-            log(`Checking hash ${hash} via IPFS in browser`)
-            const file = await node.cat(hash);
-            if (file)
-                log(file.toString('utf8'));
+            const ipfs = await window.Ipfs.create();
+            log(`Status = ${ ipfs.isOnline() ? 'online' : 'offline' }`);
             
+            log(`Checking hash ${hash} via IPFS in browser`)
+            for await (const result of ipfs.cat(hash)) {
+                var str = String.fromCharCode.apply(null, result); // convert uint8array to string
+                log(`Found: ${str}`);
+                log(`Found: ${result.toString()}`);
+            } 
         }
         f();
 		</script>
