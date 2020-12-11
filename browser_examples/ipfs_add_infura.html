@@ -23,7 +23,10 @@
             log(`Adding ${str} to ipfs via Infura`);
             const hash=await ipfs.add(bufDataToHash) //.catch(console.log); 
             console.log(hash)
-            log(`Hash ${hash[0].hash}`);
+            log(`Hash ${hash[0].path}`);
+            
+            
+              //const cid = (await ipfs.add(str)).path;  
         }
         f();
 		</script>

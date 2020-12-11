@@ -1,7 +1,7 @@
 <html>
     <head>      
     <!--script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script-->
-    <script src="https://unpkg.com/ipfs-http-client@44.0.0/dist/index.min.js"></script>
+    <script src="https://unpkg.com/ipfs-http-client@45.0.0/dist/index.min.js"></script>
  </head>
     <body>
         <h1>IPFS add (Infura) (ipfs @44.1.0 )</h1>
@@ -14,7 +14,10 @@
             const str="Web3examples \r\n"; // note: trailing space, CR, LF
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');         
             log(`Adding ${str} to ipfs via Infura`);           
-            for await (const result of ipfs.add(str)) 
+            
+            const result = await ipfs.add(str)
+            
+            //for await (const result of ipfs.add(str)) 
                 log(`cid=${result.path}`)
         }
         f();

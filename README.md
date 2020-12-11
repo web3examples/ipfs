@@ -42,6 +42,7 @@ See: [orbit](orbit)
 | [dimzrio]
 | [github-ipfs]
 | [getstarted]
+| [infuraintro]
 
 [ipfs_docs]:            https://docs.ipfs.io/
 [ipfs.io]:              https://ipfs.io
@@ -55,6 +56,8 @@ See: [orbit](orbit)
 [dimzrio]:              https://www.youtube.com/playlist?list=PLNblnG6W6-KImttnlK9zRdJ_iqyUMvHz7
 [infura-ipfs]:          https://infura.io/docs/ipfs/get/pin_add
 [getstarted]:           https://medium.com/swlh/10-resources-to-get-started-with-ipfs-5f429dc8a841
+
+[infuraintro]: https://blog.infura.io/an-introduction-to-ipfs/
 
 ## Software
 
@@ -377,3 +380,13 @@ https://brig.readthedocs.io/en/master/
 
 [anytype]:  https://www.anytype.io  
 [solui]:    https://solui.dev/
+
+
+
+
+
+
+
+// databases
+// orbitdb
+https://github.com/mikeal/dkv   (DKV (Decentralized Key-Value Store))
