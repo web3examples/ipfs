@@ -5,6 +5,7 @@
 | Tool                              
 | -----                             
 |[Browser Examples](browser_examples)
+|[Site on IPFS](site_on_ipfs)
 |[orbit](orbit)                      
 
 
