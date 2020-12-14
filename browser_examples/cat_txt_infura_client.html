@@ -18,7 +18,7 @@
             log(`Checking hash ${hash} via IPFS on Infura`)
             var str=""
             for await (const result of ipfs.cat(hash)) {
-                var str += String.fromCharCode.apply(null, result); // convert uint8array to string
+                str += String.fromCharCode.apply(null, result); // convert uint8array to string
             }                
             log(`Found: ${str}`);
         }
