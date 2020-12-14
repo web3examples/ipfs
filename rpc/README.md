@@ -11,4 +11,4 @@ Several IPFS RPC Examples. ([Up](..) [Home](..\..))
 
 
 [add_local_gh]:      https://github.com/web3examples/ipfs/tree/master/rpc/curl_add_local.cmd
-[add_infura_gh];     https://github.com/web3examples/ipfs/tree/master/rpc/curl_add_infura.cmd
+[add_infura_gh]:     https://github.com/web3examples/ipfs/tree/master/rpc/curl_add_infura.cmd

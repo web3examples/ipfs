@@ -2,8 +2,9 @@
 
 # IPFS Examples
 
-| Tool                              
-| -----                             
+| Example
+| -----                      
+|[RPC call IPFS](rpc)       
 |[Browser Examples](browser_examples)
 |[Site on IPFS](site_on_ipfs)
 |[orbit](orbit)                      
