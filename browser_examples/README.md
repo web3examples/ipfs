@@ -27,13 +27,13 @@ Several IPFS Browser Examples. ([Up](..) [Home](..\..))
 [cat_txt_local_client]:          https://web3examples.com/ipfs/browser_examples/cat_txt_local_client.html
 [ipfs_hash]:                     https://web3examples.com/ipfs/browser_examples/ipfs_hash.html
                                    
-[add_txt_infura.gh]:                https://github.com/web3examples/ipfs/tree/master/browser_examples/add_txt_infura.html
-[cat_image_infura_client.gh]:       https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_infura_client.html
-[cat_image_ipfs.io_gtw.gh]:         https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_ipfs.io_gtw.html
-[cat_image_ipfs_lib.gh]:            https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_ipfs_lib.html
-[cat_txt_gtw.gh]:                   https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_gtw.html
-[cat_txt_infura_client.gh]:         https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_infura_client.html
-[cat_txt_ipfs_lib.gh]:              https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_ipfs_lib.html
-[cat_txt_local_client.gh]:          https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_local_client.html
-[ipfs_hash.gh]:                     https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_hash.html
+[add_txt_infura_gh]:                https://github.com/web3examples/ipfs/tree/master/browser_examples/add_txt_infura.html
+[cat_image_infura_client_gh]:       https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_infura_client.html
+[cat_image_ipfs.io_gtw_gh]:         https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_ipfs.io_gtw.html
+[cat_image_ipfs_lib_gh]:            https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_image_ipfs_lib.html
+[cat_txt_gtw_gh]:                   https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_gtw.html
+[cat_txt_infura_client_gh]:         https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_infura_client.html
+[cat_txt_ipfs_lib_gh]:              https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_ipfs_lib.html
+[cat_txt_local_client_gh]:          https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_local_client.html
+[ipfs_hash_gh]:                     https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_hash.html
 
