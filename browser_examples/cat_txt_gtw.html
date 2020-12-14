@@ -1,0 +1,21 @@
+<html>
+    <head>      
+    <script src="https://unpkg.com/ipfs/dist/index.min.js"></script>
+ </head>
+    <body>
+        <h1>IPFS in browser</h1>
+        <pre id="log" style="width:100%;height:200px"></pre>
+        <script type="text/javascript">
+        function log(logstr) {   
+            document.getElementById("log").innerHTML +=logstr+"\n";
+        }
+        async function f() {       
+            const hash="QmTSYYGTmBKa3qtqsBy5jLaEqvScuP4A3k6p1KV65b9hNQ";
+            var response= await fetch("https://ipfs.io/ipfs/"+hash);
+            var str=await response.text()
+            log(`Found: ${str}`);
+        }
+        f();
+		</script>
+	</body>
+</html>

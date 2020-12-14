@@ -1,0 +1,31 @@
+<html>
+    <head>      
+    <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>  
+ </head>
+    <body>
+        <h1>IPFS image from infura in browser via library</h1>        
+        <pre id="log" style="width:100%;height:100px"></pre>
+        <img id="myimage"></img>
+        
+        <script type="text/javascript">
+        function log(logstr) {   
+            document.getElementById("log").innerHTML +=logstr+"\n";
+        }
+        async function f() {
+            var ui8arr=[]
+            const hash="QmcT9k932Hq4WN7K2TBAmHRhnLDVVfh7uCxQHZWJ3dZaDt";
+            log(`Connecting to IPFS`);
+            const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');  
+            const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
+            log(`IPFS Version ${JSON.stringify(version)}`)            
+            log(`Checking hash ${hash} via IPFS on Infura`)
+            for await (const result of ipfs.cat(hash)) 
+                ui8arr.push(result) // get all parts of the image
+            var blob = new Blob( ui8arr ,{ type: "image/jpeg" }); // convert to blob 
+            var url=URL.createObjectURL(blob)       // make usable in img
+            document.getElementById("myimage").src=url;
+        }
+        f();
+		</script>
+	</body>
+</html>
