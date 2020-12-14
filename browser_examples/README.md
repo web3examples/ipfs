@@ -37,6 +37,3 @@ Several IPFS Browser Examples. ([Up](..) [Home](..\..))
 [cat_txt_local_client.gh]          https://github.com/web3examples/ipfs/tree/master/browser_examples/cat_txt_local_client.html
 [ipfs_hash.gh]                     https://github.com/web3examples/ipfs/tree/master/browser_examples/ipfs_hash.html
 
-
-  
-          
