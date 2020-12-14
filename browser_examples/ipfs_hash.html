@@ -1,6 +1,6 @@
 <html>
     <head>      
-    <script src="https://npmcdn.com/ipfs-unixfs/dist/index.min.js"> </script>  
+    <script src="https://unpkg.com/ipfs-unixfs@2.0.2/dist/index.min.js"> </script>  
     <script src="https://bundle.run/buffer"></script>     
     <script src="https://unpkg.com/ipld-dag-pb/dist/index.min.js"> </script>
  </head>
@@ -24,9 +24,11 @@
            console.log(unixFs)
            var ufsDataToHash=unixFs.marshal();
            console.log(ufsDataToHash);
+           console.log(IpldDagPb)
            var dd=new window.IpldDagPb.DAGNode();
-           var dagNode = dd.create(ufsDataToHash);
-        
+           console.log(dd)
+           var dagNode =  window.IpldDagPb.util.cid(ufsDataToHash).then(x=> console.log(String.fromCharCode.apply(null, x)));
+        console.log(dagNode) // werkt niet
 		</script>
 	</body>
 </html>
