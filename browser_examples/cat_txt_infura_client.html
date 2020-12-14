@@ -15,12 +15,12 @@
             const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');  
             const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
             log(`IPFS Version ${JSON.stringify(version)}`)
-            
             log(`Checking hash ${hash} via IPFS on Infura`)
+            var str=""
             for await (const result of ipfs.cat(hash)) {
-                var str = String.fromCharCode.apply(null, result); // convert uint8array to string
-                log(`Found: ${str}`);
+                var str += String.fromCharCode.apply(null, result); // convert uint8array to string
             }                
+            log(`Found: ${str}`);
         }
         f();
 		</script>

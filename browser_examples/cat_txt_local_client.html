@@ -14,17 +14,15 @@
             const ipfs = window.IpfsHttpClient('http://localhost:5001');
             const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
             log(`IPFS Version ${JSON.stringify(version)}`)
-             
             log(`Checking hash ${hash} via local IPFS`)
+            var str=""
             try {
                 for await (const result of ipfs.cat(hash)) {
-                    var str = String.fromCharCode.apply(null, result); // convert uint8array to string
-                    log(`Found: ${str}`);
-                    log(`Found: ${result.toString()}`);
+                    var str+ = String.fromCharCode.apply(null, result); // convert uint8array to string                    
                 } 
+                log(`Found: ${str}`);
             } catch(x) { log(`Error: ${x}`); }
         }
-        
         f();
 		</script>
 	</body>
