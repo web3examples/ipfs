@@ -1,4 +1,1 @@
-C:\Users\gerar\AppData\Roaming\grid\app_cache\bin\bin_ipfs\ipfs %1 %2 %3 %4 %5
-
-pause
-
+@%appdata%\grid\app_cache\bin\bin_ipfs\ipfs %1 %2 %3 %4
