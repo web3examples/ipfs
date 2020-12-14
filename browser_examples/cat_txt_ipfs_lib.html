@@ -15,14 +15,13 @@
             const ipfs = await window.Ipfs.create();
             log(`Status = ${ ipfs.isOnline() ? 'online' : 'offline' }`);
             const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
-            log(`IPFS Version ${JSON.stringify(version)}`)
-            
+            log(`IPFS Version ${JSON.stringify(version)}`)            
             log(`Checking hash ${hash} via IPFS in browser`)
+            var str=""
             for await (const result of ipfs.cat(hash)) {
-                var str = String.fromCharCode.apply(null, result); // convert uint8array to string
-                log(`Found: ${str}`);
-                log(`Found: ${result.toString()}`);
+                str += String.fromCharCode.apply(null, result); // convert uint8array to string
             } 
+            log(`Found: ${str}`);
         }
         f();
 		</script>
