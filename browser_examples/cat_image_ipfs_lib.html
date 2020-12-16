@@ -1,9 +1,9 @@
 <html>
     <head>      
-    <script src="https://unpkg.com/ipfs-http-client/dist/index.min.js"></script>  
+    <script src="https://unpkg.com/ipfs/dist/index.min.js"></script>
  </head>
     <body>
-        <h1>IPFS image from infura in browser via library</h1>        
+        <h1>IPFS image from in browser IPFS</h1>        
         <pre id="log" style="width:100%;height:100px"></pre>
         <img id="myimage"></img>
         
@@ -15,10 +15,11 @@
             var ui8arr=[]
             const hash="QmcT9k932Hq4WN7K2TBAmHRhnLDVVfh7uCxQHZWJ3dZaDt";
             log(`Connecting to IPFS`);
-            const ipfs = window.IpfsHttpClient('https://ipfs.infura.io:5001');  
+            const ipfs = await window.Ipfs.create();
+            log(`Status = ${ ipfs.isOnline() ? 'online' : 'offline' }`); 
             const version = await ipfs.version().catch(x=>log(`Error: ${x}`))
             log(`IPFS Version ${JSON.stringify(version)}`)            
-            log(`Checking hash ${hash} via IPFS on Infura`)
+            log(`Checking hash ${hash} via IPFS via browser IPFS`)
             for await (const result of ipfs.cat(hash)) 
                 ui8arr.push(result) // get all parts of the image
             var blob = new Blob( ui8arr ,{ type: "image/jpeg" }); // convert to blob 
